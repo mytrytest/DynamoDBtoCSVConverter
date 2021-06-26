@@ -9,8 +9,8 @@ npm install
 ### update config.json
 
 First of all, put AWS accessKeyId, secretAccessKey and DynamoDB region in config.json 
-
 <br />Put your DynamoDB table in READ_FROM_TABLE variable.
+<br />MAX_CHECk_LIMIT variable will check first number of records to get all fields from DynamoDB table.
 ### run project
 
 ```
