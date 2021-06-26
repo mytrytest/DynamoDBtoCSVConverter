@@ -19,7 +19,7 @@ npm start
 
 
 csv column headers are determined based on the first row in your dynamodb table.
-So it skip some fields which are not available in the first row.
+So it skips some fields which are not available in the first row.
 <br />You can mention your all fields in format of array in place 'fieldArray' variable in below commented code.
 e.g. fields: ["field1", "field2", "field3", "field4"],
 <br />or
