@@ -1,0 +1,18 @@
+{
+  "name": "DynamoDB-To-CSV-Converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "RV",
+  "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.856.0",
+    "fs": "0.0.1-security",
+    "papaparse": "^5.3.1",
+    "nodemon": "^2.0.7"
+  }
+}
