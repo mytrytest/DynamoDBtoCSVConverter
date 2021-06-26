@@ -10,11 +10,13 @@ npm install
 
 First of all, put AWS accessKeyId, secretAccessKey and DynamoDB region in config.json 
 
+<br />Put your DynamoDB table in READ_FROM_TABLE variable.
 ### run project
 
 ```
 npm start
 ```
+
 
 csv column headers are determined based on the first row in your dynamodb table.
 So it skip some fields which are not available in the first row.
