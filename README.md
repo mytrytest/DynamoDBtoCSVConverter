@@ -1,5 +1,5 @@
 # DynamoDBtoCSVConverter
-It exports records of a DynamoDB table into CSV (comma-separated values) file.
+It exports records of a DynamoDB table's records into CSV (comma-separated values) file.
 ## Project setup
 
 ```
