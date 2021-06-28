@@ -65,7 +65,12 @@ async function main() {
   
   //write data into CSV file
   var csv = Papa.unparse(tableData);
-  fs.createWriteStream('generatedCSV/'+Date.now()+'.csv', { flags: 'w' }).write(csv);
+  //fs.createWriteStream('generatedCSV/'+Date.now()+'.csv', { flags: 'w' }).write(csv);
+  fs.writeFile('generatedCSV/'+Date.now()+'.csv', csv, (err) => {
+    if (err) throw err;
+    // success case, the file was saved
+    console.log('file saved!'); 
+  });
 
   /*
   csv column headers are determined based on the first row in your dynamodb table.
